@@ -5,7 +5,13 @@ description = ""
 authors = ["Samir Azzouz <s.azzouz97@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.6.2,<4.0"
+ccxt = "^1.41.71"
+python-dotenv = "^0.15.0"
+six = "^1.15.0"
+jupyterlab = "^3.0.7"
+pandas-ta = "^0.2.23-beta.0"
+pycoingecko = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 

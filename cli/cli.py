@@ -13,4 +13,5 @@ exchange = exchange_class({
     'timeout': 30000,
     'enableRateLimit': True,
 })
-print(dir(exchange))
+for i in dir(exchange):
+    print(i)
