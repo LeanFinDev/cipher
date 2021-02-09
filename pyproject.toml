@@ -5,12 +5,7 @@ description = ""
 authors = ["Samir Azzouz <s.azzouz97@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-fastapi = "^0.63.0"
-uvicorn = "^0.13.3"
-Flask = "^1.1.2"
-Django = "^3.1.5"
-pyqlib = "^0.6.1"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 
