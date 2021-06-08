@@ -1,7 +1,0 @@
-{
-  "name": "client-ionic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
-}
