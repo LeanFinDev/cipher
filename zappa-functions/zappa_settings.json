@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "zappa_functions.app",
+        "profile_name": null,
+        "project_name": "zappa-functions",
+        "runtime": "python3.7",
+        "s3_bucket": "cypher-zappa-4zqpjhbnu"
+    }
+}
