@@ -1,4 +1,5 @@
 from dotenv import dotenv_values
+import yaml
 
 config = dotenv_values("../.env") 
 

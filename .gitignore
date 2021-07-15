@@ -1,2 +1,5 @@
 .env
 cypher-env/
+.vscode/
+node_modules
+.ipynb_checkpoints

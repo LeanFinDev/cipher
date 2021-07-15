@@ -15,7 +15,13 @@
           Quasar App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn
+          color="secondary"
+          icon="check"
+          label="OK"
+          @click="toAccount"
+          outline
+        />
       </q-toolbar>
     </q-header>
 
@@ -99,6 +105,11 @@ export default {
       leftDrawerOpen: false,
       essentialLinks: linksData
     };
+  },
+  methods: {
+    toAccount() {
+      this.$router.push({ path: "account" });
+    }
   }
 };
 </script>
